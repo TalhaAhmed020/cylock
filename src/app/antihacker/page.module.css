@@ -1,0 +1,106 @@
+.mainContainer{
+    font-family: "Red Hat Display", Sans-serif; 
+    
+
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    padding: 0 10%; 
+    margin-top: 5%;
+
+}
+
+.title2{
+    margin-bottom: 4%;
+}
+
+
+.container2{
+    display: flex;
+    width: 80%;
+    padding: 0 10%;
+    flex-direction: row;
+
+}
+
+.imageContainer{
+    flex: 1;
+    position: relative;
+}
+
+.desc{
+    flex: 1;
+    font-size: 20px;
+    padding: 2%;
+    text-align: justify;
+}
+
+.p{
+    line-height: 40px;
+}
+
+.container3{
+    width: 90%;
+    margin-top: 10%;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.paragraph{
+    text-align: justify;
+    margin-top: 3%;
+    line-height: 30px;
+    word-spacing: 3px;
+    font-size: 20px;
+}
+
+.paragraph2{
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 3px;
+    font-size: 20px;
+}
+
+.button{
+    padding: 1%;
+    background-color: #61CE70;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.button:hover{
+    border-radius: 15px;
+}
+
+.title{
+    margin-top: 8%;
+}
+
+.container4{
+    width: 100%;
+    background-color: #012f42;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerContainer{
+    width: 72%;
+    padding: 3% 14%;
+
+}
+
+.container5{
+    width: 72%;
+    padding: 2% 14%;
+    text-align: center;
+    margin-bottom: 5%;
+}

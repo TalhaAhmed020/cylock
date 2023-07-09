@@ -1,0 +1,23 @@
+.container{
+    width: 60%;
+    padding: 2% 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link:hover{
+    color: red;
+    transform: scale(1.1);
+}
