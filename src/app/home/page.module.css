@@ -121,6 +121,10 @@
     padding: 3% 5%;
 }
 
+.policies:hover{
+    color: #999;
+}
+
 .inner2{
     width: 40%;
     line-height: 30px;

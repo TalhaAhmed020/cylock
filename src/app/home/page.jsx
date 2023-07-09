@@ -84,7 +84,7 @@ const Home = () => {
                     <label htmlFor="">I agree to the Terms and Conditions</label>
                     <br />
                     <br />
-                    <Link href='/'className={styles.policies} >T&C Privacy Policy</Link>
+                    <Link href='/privacy'className={styles.policies} >T&C Privacy Policy</Link>
                     <br />
                     <button className={styles.button}>Request Scanning</button>
                     <br />

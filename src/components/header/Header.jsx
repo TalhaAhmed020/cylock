@@ -18,6 +18,16 @@ const links = [
         id: 3,
         title: "Our Services",
         href: "/ourServices"
+    },
+    {
+        id: 4,
+        title: "Contact",
+        href: "/contact"
+    },
+    {
+        id: 5,
+        title: "Prices",
+        href: "/prices"
     }
 ];
 

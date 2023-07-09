@@ -14,11 +14,12 @@ const Footer = () => {
           <p className={styles.paragraph}>CyLock is a trademark of CyLock SRL
           Registered office Rome, Italy Via Fonte Buono 19
           VAT number 16639311006</p>
-          <p className={styles.paragraph}>Privacy & cookie policy - Terms and conditions</p>
+          <Link href='/privacy' className={styles.paragraph2}>Privacy & cookie policy - </Link>
+          <Link href='/terms' className={styles.paragraph2} >Terms and conditions</Link>
         </div>
         <div className={styles.socialMediaIcons}>
-          <Link href='/'> <Image src='/linkedIn.png' width={40} height={40} alt='Image Loading Error'/> </Link>
-          <Link href='/'> <Image src='/facebook.png' width={40} height={40} alt='Image Loading Error'/> </Link>
+          <Link href='/https://www.linkedin.com/company/cylock/'> <Image src='/linkedIn.png' width={40} height={40} alt='Image Loading Error'/> </Link>
+          <Link href='/https://www.facebook.com/people/CyLock/100077297528389/'> <Image src='/facebook.png' width={40} height={40} alt='Image Loading Error'/> </Link>
         </div>
       </div>
       

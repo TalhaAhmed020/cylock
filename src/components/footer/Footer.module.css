@@ -16,8 +16,12 @@
     flex: 1;
 }
 
-.paragraph{
+.paragraph, .paragraph2{
     line-height: 40px;
+}
+
+.paragraph2:hover{
+    color: #999;
 }
 
 .socialMediaIcons{
