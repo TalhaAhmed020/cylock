@@ -24,7 +24,7 @@ const links = [
 
 const Header = () => {
   return (
-    <div>
+    <div className={styles.mainContainer}>
         <div className={styles.container}>
       <Link href="/" className={styles.logo}> <Image src='/logo.png' width={216} height={60} alt='Image Loading Error'/> </Link>
       <div className={styles.links}>

@@ -41,7 +41,7 @@
 }
 
 .button{
-    padding: 1%;
+    padding: 2%;
     background-color: #61CE70;
     color: white;
     border-radius: 25px;
@@ -66,4 +66,21 @@
 
 .button:hover{
     border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .firstRow, .secRow, .thirdRow{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .antihacker, .antiphishing{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .button{
+        font-size: 15px;
+    }
 }

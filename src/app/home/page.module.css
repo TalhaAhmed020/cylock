@@ -31,7 +31,7 @@
 }
 
 .input{
-    width: 250px;
+    width: 80%;
     padding: 4%;
 }
 
@@ -147,4 +147,94 @@
 .imageContainer{
     display: flex;
     gap: 3%;
+}
+
+@media screen and (max-width:768px) {
+    .firstContainer, .thirdContainer, .fourthContainer{
+    width: 89%;
+    padding: 2% 5%;
+    }
+    .formDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .form{
+        width: 90%;
+        padding: 5% 10%;
+    }
+
+    .desc{
+        margin-top: 10%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .title{
+        margin-bottom: 5%;
+        font-size: 16px;
+    }
+    .artificial{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    .ai{
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    .image2{
+        display: none;
+    }
+    .image3{
+        width: 250px;
+        height: 300px;
+        margin-bottom: 15%;
+    }
+    .heading1{
+        font-size: 18px;
+    }
+    .carrosel{
+        width: 100px;
+        height: 100px;
+    }
+    .mainHeadings{
+        margin-top: 10%;
+        font-size: 22px;
+    }
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .inner1{
+        width: 90%;
+    }
+    .hideImage{
+        display: none;
+    }
+    .imageContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .fourthContainer{
+    }
+    
+    .hide2{
+        display: none;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .firstHeading{
+        font-size: 25px;
+        margin-bottom: 10%;
+    }
+    .secHeading{
+        font-size: 18px;
+    }
 }

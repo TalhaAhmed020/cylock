@@ -23,3 +23,15 @@
 .socialMediaIcons{
     flex: 1;
 }
+
+@media only screen and (max-width: 768px) {
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .socialMediaIcons{
+        display: flex;
+        margin: auto;
+        gap: 20%;
+    }
+}

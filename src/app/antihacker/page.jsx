@@ -8,12 +8,12 @@ const AntiHacker = () => {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.container}>
-        <h1>Antivirus and antihacker software for business cyber security and OWASP TOP 10 vulnerabilities</h1>
+        <h1 className={styles.mainHeading}>Antivirus and antihacker software for business cyber security and OWASP TOP 10 vulnerabilities</h1>
         <h2 className={styles.title2}>Find and overcome any vulnerability</h2>
 
       <div className={styles.container2}>
         <div className={styles.imageContainer}>
-            <Image alt='' src='/antihackerPage.png' fill={true}/>
+            <Image className={styles.imageContain} alt='' src='/antihackerPage.png' fill={true}/>
         </div>
         <div className={styles.desc}>
             <p className={styles.p}>CyLock finds vulnerabilities in any system with no need for technical skills, executes accurate Penetration Tests and Vulnerability Assessments in only 24 hours</p>

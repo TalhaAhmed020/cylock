@@ -63,8 +63,8 @@ const Home = () => {
     <div className={styles.mainContainer}>
       <div className={styles.firstContainer}>
         <div className={styles.mainHeadings}>
-            <h1>YOUR VIRTUAL ETHICAL HACKER</h1>
-            <h4>Vulnerability Assessment and Penetration Testing in 1 click</h4>
+            <h1 className={styles.firstHeading}>YOUR VIRTUAL ETHICAL HACKER</h1>
+            <h4 className={styles.secHeading}>Vulnerability Assessment and Penetration Testing in 1 click</h4>
         </div>
 
         <div className={styles.formDiv}>
@@ -80,7 +80,7 @@ const Home = () => {
                     <input className={styles.input} type="text" placeholder='email to get report' required/>
                     <br />
                     <br />
-                    <input type="checkbox" name="" id="" />
+                    <input  type="checkbox" name="" id="" />
                     <label htmlFor="">I agree to the Terms and Conditions</label>
                     <br />
                     <br />
@@ -113,24 +113,24 @@ const Home = () => {
         <div className={styles.artificial}>
             <div className={styles.mainContent}>
                 <div className={styles.content1}>
-                    <h1> <Image src='/hacker.png' className={styles.image} width={40} height={40}/> Artificial Intelligence for cybersecurity tests</h1>
+                    <h1 className={styles.ai}> <Image src='/hacker.png' className={styles.image} width={40} height={40}/> Artificial Intelligence for cybersecurity tests</h1>
                     <p>Thanks to AI, CyLock self-configures, simulanting thousands of targeted attacks with speed and accuracy</p>
                 </div>
                 <div className={styles.content1}>
-                    <h1> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Quick and accurate website pentesting</h1>
+                    <h1 className={styles.ai}> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Quick and accurate website pentesting</h1>
                     <p>CyLock Anti-Hacker tests any IT system. It simulates thousands of attacks executing quick and accurate penetration tests</p>
                 </div>
                 <div className={styles.content1}>
-                    <h1> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Phishing simulation on business email addresses</h1>
+                    <h1 className={styles.ai}> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Phishing simulation on business email addresses</h1>
                     <p>CyLock simulates phishing attacks with increasing difficulty levels, discovering if people are able to recognise a phishing attempt</p>
                 </div>
                 <div className={styles.content1}>
-                    <h1> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Secure Pentesting tool and certified report</h1>
+                    <h1 className={styles.ai}> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Secure Pentesting tool and certified report</h1>
                     <p>CyLock is 100% secure: our penetration tests are certified by certified ethical hacker and are valid for ISO 27001</p>
                 </div>
             </div>
             <div className={styles.image1}>
-                <Image src='/artificial.png'  width={600} height={600} className={styles.image2}/>
+                <Image src='/artificial.png'  width={600} height={600} className={styles.image3}/>
             </div>
         </div>
 
@@ -142,19 +142,19 @@ const Home = () => {
             </div>
             <div className={styles.mainContent}>
                 <div className={styles.content1}>
-                    <h1> <Image src='/hacker.png' className={styles.image} width={40} height={40}/> Artificial Intelligence for cybersecurity tests</h1>
+                    <h1 className={styles.ai}> <Image src='/hacker.png' className={styles.image} width={40} height={40}/> Artificial Intelligence for cybersecurity tests</h1>
                     <p>Thanks to AI, CyLock self-configures, simulanting thousands of targeted attacks with speed and accuracy</p>
                 </div>
                 <div className={styles.content1}>
-                    <h1> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Quick and accurate website pentesting</h1>
+                    <h1 className={styles.ai}> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Quick and accurate website pentesting</h1>
                     <p>CyLock Anti-Hacker tests any IT system. It simulates thousands of attacks executing quick and accurate penetration tests</p>
                 </div>
                 <div className={styles.content1}>
-                    <h1> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Phishing simulation on business email addresses</h1>
+                    <h1 className={styles.ai}> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Phishing simulation on business email addresses</h1>
                     <p>CyLock simulates phishing attacks with increasing difficulty levels, discovering if people are able to recognise a phishing attempt</p>
                 </div>
                 <div className={styles.content1}>
-                    <h1> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Secure Pentesting tool and certified report</h1>
+                    <h1 className={styles.ai}> <Image src='/hacker.png' className={styles.image} width={40} height={40}/>  Secure Pentesting tool and certified report</h1>
                     <p>CyLock is 100% secure: our penetration tests are certified by certified ethical hacker and are valid for ISO 27001</p>
                 </div>
             </div>
@@ -194,7 +194,7 @@ const Home = () => {
                 alt="logo"
                 width={200}
                 height={130}
-                className="object-contain"
+                className={styles.carrosel}
               />
             );
           })}
@@ -213,7 +213,7 @@ const Home = () => {
                 <h5>VAPT in 1 Click</h5>
             </div>
             <div className={styles.inner2}>
-                <Image alt='' src='/phishing.png' width={300} height={300}/>
+                <Image className={styles.hideImage} alt='' src='/phishing.png' width={300} height={300}/>
             </div>
         </div>
 
@@ -265,12 +265,12 @@ const Home = () => {
                 <br />
             </div>
             <div className={styles.inner2}>
-                <Image alt='' src='/antihacker2.png' width={250} height={250}/>
+                <Image className={styles.hide2} alt='' src='/antihacker2.png' width={250} height={250}/>
             </div>
         </div>
         <div className={styles.mainDiv}>
         <div className={styles.inner2}>
-                <Image alt='' src='/loop.png' id='image' width={250} height={250}/>
+                <Image className={styles.editImage} alt='' src='/loop.png' id='image' width={250} height={250}/>
             </div>
             <div className={styles.inner1}>
                 <h2 className={styles.heading}>Pentest report to continuously monitor your company cyber security</h2>
